@@ -25,7 +25,7 @@ var cmsThemeCss = [
     src: [
       'resources/FieloCms_Theme_Origin/styles/**/**/*.scss'
     ],
-    dest: '../resource-bundles/FieloCms_Theme_Origin.resource/styles'
+    dest: 'resource-bundles/FieloCms_Theme_Origin.resource/styles'
  }
 ];
 
@@ -65,21 +65,21 @@ var cmsThemeJs = [
       'resources/FieloCms_Theme_Origin/scripts/filter.js',
       ],
     name: 'mobile.min.js',
-    dest: '../resource-bundles/FieloCms_Theme_Origin.resource/scripts'
+    dest: 'resource-bundles/FieloCms_Theme_Origin.resource/scripts'
   },
   {
     src: [
       'resources/FieloCms_Theme_Origin/scripts/filter.js',
     ],
     name: 'tablet.min.js',
-    dest: '../resource-bundles/FieloCms_Theme_Origin.resource/scripts'
+    dest: 'resource-bundles/FieloCms_Theme_Origin.resource/scripts'
   },
   {
     src: [
       'resources/FieloCms_Theme_Origin/scripts/filter.js',
     ],
     name: 'desktop.min.js',
-    dest: '../resource-bundles/FieloCms_Theme_Origin.resource/scripts'
+    dest: 'resource-bundles/FieloCms_Theme_Origin.resource/scripts'
   }
 ];
 
