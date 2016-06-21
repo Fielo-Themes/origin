@@ -1,0 +1,10 @@
+/*
+ * Reglas para dispositivos Tablet
+ */
+@import 'mobile';
+
+
+/** Larger Screens - desktops and tablets **/
+@media #{$bp-tablet-1} {}
+@media #{$bp-tablet-2} {}
+@media #{$bp-tablet-3} {}

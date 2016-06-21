@@ -1,0 +1,20 @@
+.fielo-login{
+	text-align: center;
+	.fielo-field__value{
+		width: 100%;
+		input{
+			padding: 10px 40px;
+			color: $grey-color;
+			text-align: center;
+		}
+	}
+	.fielo-field__label{
+		width: 100%;
+		color: $label-color;
+	}
+	.fielo-login__link{
+		color: $link-color;
+		font-size: 12px;
+		padding-right: 10px;
+	}
+}

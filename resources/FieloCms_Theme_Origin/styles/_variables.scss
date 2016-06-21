@@ -1,0 +1,33 @@
+// Breakpoints for mobile
+$bp-mobile-1: "(min-width: 320px)";
+$bp-mobile-2: "(min-width: 360px)";
+$bp-mobile-3: "(min-width: 400px)";
+$bp-mobile-4: "(min-width: 480px)";
+$bp-mobile-5: "(min-width: 600px)";
+
+// Breakpoints for tablet
+$bp-tablet-1: "(min-width: 720px)";
+$bp-tablet-2: "(min-width: 840px)";
+$bp-tablet-3 : "(min-width: 960px)";
+
+// Breakpoints for desktop
+$bp-desktop-1: "(min-width: 1024px)";
+$bp-desktop-2: "(min-width: 1280px)";
+$bp-desktop-3: "(min-width: 1824px)";
+$bp-desktop-4: "(min-width: 2048px)";
+
+/* THEME */
+$header-footerBGColor: #d1d3d4;
+$header-footerFONTColor: #666666;
+
+// Buttons colors
+$safeColor: #7AC043;
+$dangerColor: #E31D1A;
+
+
+// Font colors
+$primary-color: #5e5e5e;
+$grey-color: #949494;
+$title-color: #474747;
+$link-color: #3d627f;
+$label-color: #a5a5a5;

@@ -1,0 +1,64 @@
+.fielo-catalog {
+  .fielo-link {
+    color: inherit;
+  }
+  .fielo-record {
+    position:relative;
+  }
+  &[data-layout="grid"] .fielo-field {
+    background: #cccccc;
+    text-align: center;
+
+    &.fielo-field--is-ViewImage {
+      background: none;
+      border: 1px solid #000000;
+      padding: 0;
+    }
+    &.fielo-field--is-PointsCant__c .fielo-field__value {
+      font-weight: bold;
+    }
+    &.fielo-field--is-Tags {
+      position: absolute;
+      top: 40px;
+      background: transparent;
+    }
+  }
+}
+
+.fielo-modal {
+  .mdl-cell {
+    margin: 0;
+  }
+  .fielo-field--is-detail {
+    margin-top: 30px;
+    .fielo-title {
+      display: none;
+    }
+  }
+  .fielo-detail {
+    .fielo-field {
+      float: left;
+      width: 50%;
+      &.fielo-field--is-Name {
+        font-weight: bold;
+        color: #333333;
+      }
+      &.fielo-field--is-FieloAlpha__PointsCant__c {
+        .mdl-cell {
+          width: auto;
+          &.fielo-field__value {
+            margin-left: 5px;
+            color: #cc0000;
+            font-weight: bold;
+          }
+        }
+      }
+      &.fielo-field--is-FieloAlpha__Description__c {
+        margin: 20px 0;
+      }
+      &.fielo-field--is-AddtoCart {
+
+      }
+    }
+  }
+}

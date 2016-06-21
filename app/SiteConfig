@@ -1,0 +1,9 @@
+{
+  "ns":"",
+  "label":{
+    "close":"close",
+    "areYouSure":"Are you sure",
+    "errorImageType":"The image must be .jpg, .gif or .png.",
+    "noResultsFound":"No result founds"
+  }
+}

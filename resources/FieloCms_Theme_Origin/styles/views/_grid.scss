@@ -1,0 +1,26 @@
+
+.mdl-grid {
+  .fielo-field {
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  .fielo-field--is-Name {
+    color: #666666;
+  }
+  .fielo-field--is-ViewImage {
+    background: none;
+  }
+  .fielo-paginator {
+    text-align: center;
+    .fielo-link__previous {
+      &:after {
+        content: " <";
+      }
+    }
+    .fielo-link__next {
+      &:before {
+        content: "> ";
+      }
+    }
+  }
+}

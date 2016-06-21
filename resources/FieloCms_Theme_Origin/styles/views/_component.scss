@@ -1,0 +1,24 @@
+body{
+	font-family: 'Open Sans';
+	color: $primary-color;
+}
+.fielo-title{
+	color: $title-color;
+	font-size: 30px;
+	font-weight: 300;
+}
+.fielo-detail{
+	.fielo-field--is-FieloAlpha__Body__c{
+		.fielo-field__label{
+			font-weight: 700;
+			font-size: 18px;
+		}
+		.fielo-field__value{
+			color: $primary-color;	
+			p{
+				font-size: 16px;
+		    	line-height: 20px;
+		    }
+		}
+	}
+}

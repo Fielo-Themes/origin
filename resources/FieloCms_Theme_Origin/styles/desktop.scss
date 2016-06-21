@@ -1,0 +1,24 @@
+/*
+ * Reglas para dispositivos Desktop
+ */
+@import 'tablet';
+
+
+@media #{$bp-desktop-1} {
+	.fielo-header,
+	.fielo-footer {
+	  &>.fielo-row {
+	    width: 1000px;
+	  }
+	}
+}
+@media #{$bp-desktop-2} {
+	.fielo-header,
+	.fielo-footer {
+	  &>.fielo-row {
+	    width: 1170px;
+	  }
+	}
+}
+@media #{$bp-desktop-3} {}
+@media #{$bp-desktop-4} {}

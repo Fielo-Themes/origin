@@ -1,0 +1,44 @@
+.fielo-organization-account, .fielo-form-view{
+	.fielo-field__value{
+	color:#949494;
+	border-bottom: 1px solid $label-color;
+	padding-bottom: 5px;
+	font-size: 16px;
+	margin-top: 0;
+	width: 100%;
+		a{
+			color:$grey-color;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}
+.fielo-form, .fielo-form-view{
+	.fielo-field{
+		.fielo-field__label{
+			color: $label-color;
+			text-transform: uppercase;
+			font-size: 13px;
+			margin-bottom: 0;
+			width: 100%;
+		}
+		&:last-child{
+			.fielo-field__value{
+				border-bottom: none;
+			}
+		}
+	}
+	&.fielo-form{
+		.fielo-field__value{
+			input{
+				padding: 10px 40px 10px 10px;
+				color: $grey-color;
+				text-align: left;
+			}
+		}
+		.fielo-field__value{
+			border-bottom: none;
+		}
+	}
+}

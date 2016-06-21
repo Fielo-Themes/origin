@@ -1,0 +1,53 @@
+.fielo-header,
+.fielo-footer {
+  background-color: $header-footerBGColor;
+  color: $header-footerFONTColor;
+  .fielo-navigation.fielo-menu--isHorizontal .fielo-list {
+    margin: 10px 0;
+    .fielo-list__item .fielo-link {
+      color: inherit;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.fielo-header {
+  .fielo-image {
+    margin-top: 5px;
+    max-height: 50px;
+    width: auto;
+  }
+  .fielo-navigation.fielo-menu--isHorizontal .fielo-list {
+    .fielo-list__item {
+      text-transform: uppercase;
+      white-space: nowrap;
+      &:hover {
+        background: none;
+      }
+      .fielo-list {
+        background: rgba(0, 0, 0, 0.50);
+        padding: 0 10px;
+        display: none;
+        .fielo-list__item {
+          border-bottom: 1px solid #ffffff;
+          padding: 10px;
+          &:last-child {
+            border-bottom: none;
+          }
+          .fielo-link {
+            color: $header-footerBGColor;
+          }
+        }
+      }
+      &.fielo-js-hover {
+        .fielo-list {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+      .fielo-list, .fielo-list__item {
+        //display: block;
+      }

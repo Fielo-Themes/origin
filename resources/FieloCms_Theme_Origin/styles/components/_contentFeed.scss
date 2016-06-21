@@ -1,0 +1,17 @@
+
+.fielo-content-feed {
+  .fielo-record {
+    background: #e7e8ea;
+    padding: 10px;
+    .fielo-field {
+      color: #666666;
+      &.fielo-field--is-FieloAlpha__Title__c {
+        height: 45px;
+        .fielo-link {
+          color: #333333;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

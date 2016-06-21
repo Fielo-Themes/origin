@@ -1,0 +1,51 @@
+.fielo-table {
+  margin-bottom: 20px;
+  border: none;
+  td, th{
+    &:first-of-type, &:last-of-type{
+      padding: 10px;
+    }
+  }
+  .fielo-table__head {
+    background: #8F9497;
+    color: #ffffff;
+    .fielo-field {
+      border-right: 1px solid #cccccc;
+      color: #FFF;
+      font-size:14px;
+      padding: 10px;
+    }
+  }
+  .fielo-record-set__data {
+    .fielo-record {
+      &:nth-child(odd) {
+        background: #E7E8EA;
+        .fielo-field {
+          border-right: 1px solid #F2F3F5;
+        }
+      }
+      &:nth-child(even) {
+        background: #F9F9F9;
+        .fielo-field {
+          border-right: 1px solid #ECECEC;
+        }
+      }
+    }
+    .fielo-field--is-accordion {
+      .fielo-field--is-detail {
+        padding: 0;
+        .fielo-record {
+          background: #f1f1f3;
+          .fielo-field--is-ViewImage {
+            float: left;
+            width: 150px;
+          }
+        }
+      }
+    }
+    .fielo-field {
+      padding-bottom: 12px;
+      vertical-align: middle;
+    }
+  }
+}

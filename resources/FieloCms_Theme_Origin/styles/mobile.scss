@@ -1,0 +1,75 @@
+// Para modificar el CORE de FIELO //
+
+.fielo-banner-widget .fielo-field--is-Name {
+  color: none; // !!!!!!!!!!!!!        porque esta regla?
+}
+
+
+// Esto es parte del theme en el archivo components/_contentFeed.scss
+.fielo-content-feed .fielo-table__head .fielo-record {
+  background: none !important;
+  th {
+    color: #ffffff !important;
+  }
+}
+
+.mdl-data-table td, .mdl-data-table th {
+    /* ?????????????????????
+    padding: 0 18px;
+    text-align: right; 
+    */
+    text-align: left;
+}
+
+a:hover {
+  //text-decoration: underline;
+  text-decoration: none;
+}
+
+.fielo-footer--is-pushing {
+  min-height: 210px;
+  // Luego ver si con JS se puede hacer algo dinamico que calcule
+  // el alto del header y del footer y que el mas alto gane.
+  // Y esa altura es el valor de esta regla
+}
+/*
+// Si pongo esta regla el slider se achica y no se ve la foto
+
+.fielo-slider__container {
+  height: auto;
+}
+*/
+
+// Breakpoints and stuff
+@import '_variables';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+// Importa vistas
+@import 'views/_component';
+@import 'views/_modal';
+@import 'views/_header';
+@import 'views/_footer';
+@import 'views/_table';
+@import 'views/_grid';
+@import 'views/_forms';
+
+// Importa Componentes
+@import 'components/_buttons';
+@import 'components/_shoppingCart';
+@import 'components/_catalog';
+@import 'components/_contentFeed';
+@import 'components/_filter';
+@import 'components/_navigationDetail';
+@import 'components/_login';
+
+
+
+
+
+
+
+@media #{$bp-mobile-1} {}
+@media #{$bp-mobile-2} {}
+@media #{$bp-mobile-3} {}
+@media #{$bp-mobile-4} {}
+@media #{$bp-mobile-5} {}

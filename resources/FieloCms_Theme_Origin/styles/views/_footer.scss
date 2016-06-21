@@ -1,0 +1,28 @@
+
+.fielo-footer {
+  .fielo-content a {
+    color: inherit;
+  }
+  .fielo-navigation.fielo-menu--isHorizontal .fielo-list {
+    padding: 0;
+    .fielo-list__item {
+      padding: 0;
+      margin-right: 30px;
+      &:hover{
+        background: none;
+      }
+      .fielo-list.fielo-list {
+        position: relative;
+        background: none;
+        padding: 0;
+      }
+      .fielo-list .fielo-list__item {
+        float: none;
+        padding: 2px 0;
+      }
+      .fielo-list .fielo-list__item .fielo-link {
+        text-transform: capitalize;
+      }
+    }
+  }
+}

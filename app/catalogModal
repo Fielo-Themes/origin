@@ -1,0 +1,43 @@
+<div class="fielo-record fielo-detail fielo-reward-detail  fielo-js-component" data-componentid="a0r36000000vSa5AAE" data-upgraded=",FieloRecord">
+        <legend class="fielo-title">Reward Detail</legend>
+  <div class="mdl-grid fielo-field fielo-field--is-ViewImage">
+    <div class="mdl-cell mdl-cell--12-col fielo-field__label ">
+    </div>
+    <div class="mdl-cell mdl-cell--12-col fielo-field__value">
+  <img class="fielo-image " data-attribute-replace="src" data-object-property="FieloAlpha__AttachmentId__c" src="/images/fielo-car.jpg"></div>
+  </div>
+  <div class="mdl-grid fielo-field fielo-field--is-Name">
+    <div class="mdl-cell mdl-cell--12-col fielo-field__label ">
+    </div>
+    <div class="mdl-cell mdl-cell--12-col fielo-field__value">
+    <span class="fielo-output fielo-output__text" data-type="string" data-upgraded=",FieloOutput"><span id="j_id0:j_id1_0:j_idd0:j_id1_3:j_idd15:j_id1_4:j_idd22:j_idd26">MyReward</span></span></div>
+  </div>
+  <div class="mdl-grid fielo-field fielo-field--is-FieloAlpha__PointsCant__c">
+    <div class="mdl-cell mdl-cell--12-col fielo-field__label ">
+        <span for="frmFieloAlpha__PointsCant__c">Points</span>
+    </div>
+    <div class="mdl-cell mdl-cell--12-col fielo-field__value">
+    <span class="fielo-output fielo-output__number" data-type="double" data-value="4" data-upgraded=",FieloOutput">4</span></div>
+  </div>
+  <div class="mdl-grid fielo-field fielo-field--is-FieloAlpha__Description__c">
+    <div class="mdl-cell mdl-cell--12-col fielo-field__label ">
+    </div>
+    <div class="mdl-cell mdl-cell--12-col fielo-field__value">
+    <span class="fielo-output fielo-output__text" data-type="textarea" data-upgraded=",FieloOutput"><span id="j_id0:j_id1_0:j_idd0:j_id1_7:j_idd65:j_id1_8:j_idd72:j_idd76">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span></span></div>
+  </div>
+  <div class="mdl-grid fielo-field fielo-field--is-AddtoCart">
+    <div class="mdl-cell mdl-cell--12-col fielo-field__label ">
+        <span for="frmAddtoCart">Add to Cart</span>
+    </div>
+    <div class="mdl-cell mdl-cell--12-col fielo-field__value">
+        <div class="fielo-form">
+            <form class="fielo-add-to-cart fielo-js-upgrade" data-alreadyincart="This reward is already in your shopping cart, please modify the quantity in the shopping cart." data-remoteaction="FieloCMS_EE.AddToCartController.addToCart" data-remotearguments="recordId,quant,closeOrder,detailUrl" data-remoteobject="FieloAlpha__Redemption__c">
+                <input name="closeOrder" type="hidden" value="false">
+                <input name="detailUrl" type="hidden" value="">
+                <input data-attribute-replace="value" data-object-property="Id" name="recordId" type="hidden" value="a0d3600000144dlAAA">
+                <input class="fielo-form__quantity" min="1" name="quant" required="required" type="number" value="1">
+                <button class="fielo-button fielo-button__submit" type="submit">Add </button>
+            </form>
+        </div></div>
+  </div>
+    </div>
