@@ -1,14 +1,15 @@
 'use strict';
-
 import gulp from 'gulp';
 import runSequence from 'run-sequence';
 import browserSync from 'browser-sync';
 import gulpLoadPlugins from 'gulp-load-plugins';
-
+import zip from 'gulp-zip';
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
+// Replace with your theme name
+var THEME_NAME = 'FieloCms_Theme_Origin';
 
 // Build production site and backend files, the default task
 gulp.task('default', cb => {
@@ -23,9 +24,9 @@ gulp.task('default', cb => {
 var cmsThemeCss = [
   {
     src: [
-      'resources/FieloCms_Theme_Origin/styles/**/**/*.scss'
+      'resources/' + THEME_NAME + '/styles/**/**/*.scss'
     ],
-    dest: 'resource-bundles/FieloCms_Theme_Origin.resource/styles'
+    dest: 'resource-bundles/' + THEME_NAME + '.resource/styles'
  }
 ];
 
@@ -62,24 +63,24 @@ var cmsThemeJs = [
   {
     src: [
       // Utilidades
-      'resources/FieloCms_Theme_Origin/scripts/filter.js',
+      'resources/' + THEME_NAME + '/scripts/filter.js',
       ],
     name: 'mobile.min.js',
-    dest: 'resource-bundles/FieloCms_Theme_Origin.resource/scripts'
+    dest: 'resource-bundles/' + THEME_NAME + '.resource/scripts'
   },
   {
     src: [
-      'resources/FieloCms_Theme_Origin/scripts/filter.js',
+      'resources/' + THEME_NAME + '/scripts/filter.js',
     ],
     name: 'tablet.min.js',
-    dest: 'resource-bundles/FieloCms_Theme_Origin.resource/scripts'
+    dest: 'resource-bundles/' + THEME_NAME + '.resource/scripts'
   },
   {
     src: [
-      'resources/FieloCms_Theme_Origin/scripts/filter.js',
+      'resources/' + THEME_NAME + '/scripts/filter.js',
     ],
     name: 'desktop.min.js',
-    dest: 'resource-bundles/FieloCms_Theme_Origin.resource/scripts'
+    dest: 'resource-bundles/' + THEME_NAME + '.resource/scripts'
   }
 ];
 
@@ -111,16 +112,18 @@ gulp.task('jsBuildSiteTheme', ['cmsThemeJsLint'], () => {
  });
 });
 
+// JavaScript constructor
+gulp.task('cmsBuildZip', () => {
+  return gulp.src('resource-bundles/' + THEME_NAME + '.resource/**')
+    .pipe(zip(THEME_NAME + '.zip'))
+    .pipe(gulp.dest('resource-bundles'));
+});
+
 // Local server
 gulp.task('theme', ['cmsBuildSiteTheme', 'jsBuildSiteTheme'], () => {
   browserSync({
     notify: false,
-    // Customize the BrowserSync console logging prefix
-    logPrefix: 'WSK',
-    // Run as an https by uncommenting 'https: true'
-    // Note: this uses an unsigned certificate which on first access
-    //       will present a certificate warning in the browser.
-    // https: true,
+    logPrefix: 'FIELO_THEME',
     server: ['resource-bundles', 'app',],
     reloadDelay: 150,
     port: 3000,
@@ -131,10 +134,10 @@ gulp.task('theme', ['cmsBuildSiteTheme', 'jsBuildSiteTheme'], () => {
    }
  });
 
-  // Levanta servidor con los themes
+  // Listens for changes and reloads browsers
   gulp.watch(['app/**/*.html'], reload);
-  gulp.watch(['resources/FieloCms_Theme_Origin/styles/**/*.{scss,css}'], [
-    'cmsBuildSiteTheme', reload ]);
-  gulp.watch(['resources/FieloCms_Theme_Origin/scripts/**/*.js'], [
-    'jsBuildSiteTheme', reload ]);
+  gulp.watch(['resources/' + THEME_NAME + '/styles/**/*.{scss,css}'], [
+    'cmsBuildSiteTheme', 'cmsBuildZip', reload]);
+  gulp.watch(['resources/' + THEME_NAME + '/scripts/**/*.js'], [
+    'jsBuildSiteTheme', 'cmsBuildZip', reload]);
 });

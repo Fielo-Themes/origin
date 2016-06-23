@@ -2,6 +2,6 @@
 *.sublime-project
 *.sublime-settings
 *.sublime-workspace
-resource-bundles/FieloCms_Theme_Origin.resource/
+resource-bundles/*.resource
 node_modules/
 docs/
