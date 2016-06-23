@@ -144,9 +144,9 @@ gulp.task('cmsBuildZip', ['cmsCopyResourcesFiles'], () => {
 gulp.task('theme', ['cmsBuildSiteTheme', 'jsBuildSiteTheme'], () => {
   browserSync({
     notify: false,
-    logPrefix: 'FIELO_THEME',
+    logPrefix: 'FIELO_THEME: ' + THEME_NAME,
     server: ['resource-bundles', 'app',],
-    reloadDelay: 150,
+    reloadDelay: 250,
     port: 3000,
     ui: {
       weinre: {
