@@ -2,7 +2,8 @@
 .fielo-footer {
   background-color: $header-footerBGColor;
   color: $header-footerFONTColor;
-  .fielo-navigation.fielo-menu--isHorizontal .fielo-list {
+  .fielo-navigation.fielo-menu--isHorizontal .fielo-list,
+  .fielo-navigation.fielo-menu--isVertical .fielo-list {
     margin: 10px 0;
     .fielo-list__item .fielo-link {
       color: inherit;
