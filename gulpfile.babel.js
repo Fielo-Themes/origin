@@ -112,8 +112,22 @@ gulp.task('jsBuildSiteTheme', ['cmsThemeJsLint'], () => {
  });
 });
 
-// JavaScript constructor
-gulp.task('cmsBuildZip', () => {
+
+// Copy resources files
+gulp.task('cmsCopyResourcesFiles', () => {
+  // copy thumbnail
+  gulp.src(['resources/' + THEME_NAME + '/theme.jpg'], { dot: true})
+  .pipe(gulp.dest('resource-bundles/' + THEME_NAME + '.resource'))
+  .pipe($.size({title: 'copy'}));
+
+  // copy images
+  return gulp.src(['resources/' + THEME_NAME + '/images/**'], { dot: true})
+  .pipe(gulp.dest('resource-bundles/' + THEME_NAME + '.resource/images'))
+  .pipe($.size({title: 'copy'}));
+});
+
+// Builds zip for using as static resource
+gulp.task('cmsBuildZip', ['cmsCopyResourcesFiles'], () => {
   return gulp.src('resource-bundles/' + THEME_NAME + '.resource/**')
     .pipe(zip(THEME_NAME + '.zip'))
     .pipe(gulp.dest('resource-bundles'));
