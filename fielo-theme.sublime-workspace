@@ -1,0 +1,1043 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"pane",
+				"apex:panelGroup"
+			],
+			[
+				"vale",
+				"valuesToUpdate"
+			],
+			[
+				"S",
+				"SITE_ID"
+			],
+			[
+				"SITE",
+				"SITE_LAYOUT"
+			],
+			[
+				"sa",
+				"saveHandler_"
+			],
+			[
+				"ini",
+				"initHeader_"
+			],
+			[
+				"init",
+				"initButtons_"
+			],
+			[
+				"data",
+				"dataList_"
+			],
+			[
+				"PAGE",
+				"PAGE_TITLE"
+			],
+			[
+				"he",
+				"header_"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"sty",
+				"styleClass	(String)"
+			],
+			[
+				"form",
+				"formulario"
+			],
+			[
+				"se",
+				"severity"
+			],
+			[
+				"filter",
+				"filters_"
+			],
+			[
+				"fielo",
+				"fieloUtils"
+			],
+			[
+				"ele",
+				"element_"
+			],
+			[
+				"detail",
+				"detailContent_"
+			],
+			[
+				"LINK",
+				"LINK_IS_MODAL"
+			],
+			[
+				"L",
+				"LINK_IS_MODAL"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"set",
+				"setDetailContent"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"cl",
+				"clickListener"
+			],
+			[
+				"lin",
+				"linksToDetail_"
+			],
+			[
+				"elemet",
+				"element"
+			],
+			[
+				"C",
+				"CssClasses_"
+			],
+			[
+				"de",
+				"default"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\nOrigin\n* Agregar estilos a nav vertical\n\nFIELO DAYS\n* Github: Averiguar como se reuelven los bugs luego de una release\n* Theme Origin: Agregar en readme el quickstart\n* BEM: Crear documentación\n\n\nEQUIPO\n* Armar perfil SSR",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/fixtures/login.html",
+			"settings":
+			{
+				"buffer_size": 11745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fielo-theme.sublime-project",
+			"settings":
+			{
+				"buffer_size": 694,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"last_filter": "depl",
+		"selected_items":
+		[
+			[
+				"depl",
+				"MavensMate: Deploy Resource Bundle..."
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"de",
+				"MavensMate: Deploy Resource Bundle..."
+			],
+			[
+				"dep",
+				"MavensMate: Deploy Resource Bundle..."
+			],
+			[
+				"bea",
+				"SassBeautify"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"be",
+				"SassBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"jso",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"rein",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"view",
+				"View: Toggle Minimap"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/marien/hugui/workspace/Themes/origin"
+	],
+	"file_history":
+	[
+		"/home/marien/hugui/workspace/FIA/fielocms/src/components/BackendHeaderRecord.component",
+		"/home/marien/hugui/workspace/FIA/fielocms/raw/resources/FieloCms_Salesforce/scripts/header.js",
+		"/home/marien/hugui/workspace/FIA/fielocms/raw/resources/FieloCms_Site/styles/mobile/components/_outlines/_modal.scss",
+		"/home/marien/hugui/workspace/FIA/fielocms/src/labels/CustomLabels.labels",
+		"/home/marien/hugui/workspace/FIA/fielocms/src/pages/ComponentCreate.page",
+		"/home/marien/hugui/workspace/FIA/fielocms/src/pages/LayoutCreate.page",
+		"/home/marien/hugui/workspace/FIA/fielocms/src/classes/LayoutCreateExtension.cls",
+		"/home/marien/.config/sublime-text-3/Packages/User/mavensmate.sublime-settings",
+		"/home/marien/hugui/workspace/FIA/fielocms/fielocms.sublime-project",
+		"/home/marien/hugui/workspace/FIA/fielocms/fielocms.sublime-settings",
+		"/home/marien/.config/sublime-text-3/Packages/MavensMate/mavensmate.sublime-settings",
+		"/home/marien/hugui/workspace/fielocms/raw/package.json",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/scripts/sitesLanding.js",
+		"/home/marien/hugui/workspace/fielocms/src/pages/SitesLanding.page",
+		"/home/marien/hugui/workspace/fielocms/src/components/BackendHeaderRecord.component",
+		"/home/marien/hugui/workspace/fielocms/src/classes/SitesLandingController.cls",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/scripts/componentCreate.js",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/scripts/header.js",
+		"/home/marien/hugui/workspace/fielocms/src/pages/ComponentCreate.page",
+		"/home/marien/hugui/workspace/fielocms/src/pages/LayoutCreate.page",
+		"/home/marien/hugui/workspace/fielocms/src/classes/ComponentCreateExtension.cls",
+		"/home/marien/hugui/workspace/fielocms/src/pages/PageView.page",
+		"/home/marien/hugui/workspace/fielocms/fielocms.sublime-project",
+		"/home/marien/hugui/workspace/fielocms/raw/gulpfile.babel.js",
+		"/home/marien/hugui/workspace/fielocms/raw/docs/salesforce/header.js.html",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/styles/helpers/_fixes.scss",
+		"/home/marien/hugui/workspace/fielocms/src/classes/PageViewExtensions.cls",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/scripts/menuViewBackEnd.js",
+		"/home/marien/hugui/workspace/fielocms/src/classes/LayoutCreateExtension.cls-meta.xml",
+		"/home/marien/hugui/workspace/fielocms/src/pages/PageCreate.page",
+		"/home/marien/hugui/workspace/fielocms/src/classes/LayoutCreateExtension.cls",
+		"/home/marien/hugui/workspace/fielocms/src/classes/PageCreateExtension.cls",
+		"/home/marien/hugui/workspace/fielocms/src/classes/PageService.cls",
+		"/home/marien/hugui/workspace/fielocms/src/pages/PageAddExisting.page",
+		"/home/marien/hugui/workspace/fielocms/src/components/PhotoUpload.component",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/vendor/mdl/mdl-grid.css",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/vendor/fonts/icons.css",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/vendor/cropper/cropper.css",
+		"/home/marien/hugui/workspace/fielocms/resource-bundles/FieloCms_Salesforce.resource/vendor/_salesforce-lightning-design-system-vf.scss",
+		"/home/marien/hugui/workspace/fielocms/raw/node_modules/babel-core/node_modules/babel-register/node_modules/source-map-support/amd-test/require.js",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/styles/components/_header.scss",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/styles/core.scss",
+		"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/styles/pages/_pageView.scss",
+		"/home/marien/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/home/marien/hugui/workspace/fielocms/src/classes/BackendHeaderRecordController.cls",
+		"/home/marien/hugui/workspace/fielocms/fielocms.sublime-settings",
+		"/home/marien/.bash_aliases",
+		"/home/marien/.bashrc",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/forms.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/components.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/test/fakeforce.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/fixtures/site/form.html",
+		"/home/marien/hugui/Fielo.EE/trunk/src/components/SiteLoginFielo.component",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/test/messages.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/message.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/formView.js",
+		"/home/marien/hugui/Fielo.EE/trunk/src/components/FormView.component",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/package.json",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/gulpfile.babel.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/filter.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/paginator.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/record.js",
+		"/tmp/filter-0.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/fixtures/site/accordeon.html",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/index.html",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/fixtures/site/output.html",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/slider.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/styles/components/_outlines/_modal.scss",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/modal.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/spinner.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/test/modal.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/site.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/fixtures/site/modal.html",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/detail.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/accordion.js",
+		"/etc/default/grub",
+		"/home/marien/hugui/Fielo.EE/trunk/src/components/OutputField.component",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/output.js",
+		"/home/marien/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/marien/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/fixtures/site/slider.html",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/test/output.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/outputField.js",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/app/fixtures/site/messages.html",
+		"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts/lists.js",
+		"/home/marien/hugui/Fielo.EE/trunk/trunk.sublime-project"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/marien/hugui/workspace/fielocms/src",
+			"/home/marien/hugui/workspace/fielocms/raw/resources/FieloCms_Salesforce/scripts",
+			"/home/marien/hugui/workspace/fielocms/raw",
+			"/home/marien/hugui/workspace/fielocms",
+			"/home/marien/hugui/workspace/fielocms/src",
+			"src",
+			"",
+			"/home/marien/hugui/Fielo.EE/trunk/raw/resources/FieloSiteResources/scripts",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"errorFounded_",
+			"errorFound_",
+			"possibleErrors",
+			"possibleErrors_",
+			"possibleErrors",
+			"noErrors",
+			"saveCompleted_",
+			"saveCompleted",
+			"save",
+			"fielo-theme",
+			"vendor",
+			"valuesToUpdate",
+			"*",
+			"domain",
+			"fielo-site__domain-id",
+			"importpages",
+			"updateHeaderValues_",
+			"this.editBtn_.click();",
+			"minjs",
+			"FieloSites",
+			"Site__c",
+			"api",
+			"datalist",
+			"save",
+			"dataList",
+			"save(JSON.stringify(dataList))",
+			"save(JSON.stringify(dataList));",
+			"save",
+			"import",
+			"save",
+			"Save",
+			"save",
+			"Page__c",
+			"page",
+			"__c",
+			"page__id",
+			"importPages",
+			"public static void",
+			"PageService.",
+			"PageService",
+			"<i ",
+			"awesome",
+			"down-text",
+			"<i ",
+			"span2",
+			"row-fluid",
+			"well",
+			"down-text",
+			"row-fluid",
+			"thickbox",
+			"jscolor",
+			"gantter",
+			"bootstrap",
+			"c:",
+			"importPages",
+			"light",
+			".css",
+			"jquery",
+			"buildCmsSalesforceJs",
+			"buildCmsSalesforceCss",
+			"watch",
+			"spinner.gif",
+			"../vendor",
+			"vendor/lightning",
+			"@font-face",
+			"\"",
+			"widget: true",
+			"FieloSpinner",
+			"\n$('.",
+			"$(",
+			"h3",
+			"eslint",
+			"ignore",
+			"document.querySelector",
+			"fielo-page-view",
+			".slds",
+			".slds ",
+			"responsive-controls",
+			".responsive-controls",
+			".slds",
+			";",
+			"{",
+			";",
+			"{ ",
+			"{",
+			"*",
+			"style=",
+			"style",
+			".fielo-menu",
+			"style",
+			"innerHTML",
+			"h1",
+			"button",
+			"console.log",
+			"header",
+			"'.' + ",
+			"  ",
+			"'hidden'",
+			".querySelector",
+			"saveBtn_",
+			"clone",
+			"__cancel",
+			"saveBtn_",
+			"saveBtn",
+			"editBtn_",
+			"deleteButton_",
+			"editButton_",
+			"EDIT_BUTTON",
+			"DELETE",
+			"fielo-edit",
+			"getAttribute",
+			");",
+			"];",
+			"data",
+			"__c",
+			"FieloCMS__",
+			"FieloCMS__Description__c",
+			"FieloCMS__",
+			"saveSections",
+			"updateSections",
+			"},{",
+			"\",\"",
+			"}, {",
+			", \"",
+			"\"indent_size\":",
+			"`indent_size`",
+			"indent_size",
+			"tools"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fielo-output"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/fixtures/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Visualforce.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fielo-theme.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								694,
+								694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 147.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fielo-theme.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"login",
+				"app/fixtures/login.html"
+			],
+			[
+				"backend",
+				"src/components/BackendHeaderRecord.component"
+			],
+			[
+				"custo",
+				"src/labels/CustomLabels.labels"
+			],
+			[
+				"componen",
+				"src/pages/ComponentCreate.page"
+			],
+			[
+				"custom",
+				"src/labels/CustomLabels.labels"
+			],
+			[
+				"layoutcreateextension",
+				"src/classes/LayoutCreateExtension.cls"
+			],
+			[
+				"layout",
+				"src/pages/LayoutCreate.page"
+			],
+			[
+				"packa",
+				"raw/package.json"
+			],
+			[
+				"headerrecord",
+				"src/components/BackendHeaderRecord.component"
+			],
+			[
+				"siteslandpag",
+				"src/pages/SitesLanding.page"
+			],
+			[
+				"siteslanjs",
+				"raw/resources/FieloCms_Salesforce/scripts/sitesLanding.js"
+			],
+			[
+				"sites",
+				"src/classes/SitesLandingController.cls"
+			],
+			[
+				"componentcreateextension",
+				"src/classes/ComponentCreateExtension.cls"
+			],
+			[
+				"component",
+				"src/pages/ComponentCreate.page"
+			],
+			[
+				"header",
+				"raw/resources/FieloCms_Salesforce/scripts/header.js"
+			],
+			[
+				"pac",
+				"raw/package.json"
+			],
+			[
+				"componencrea",
+				"raw/resources/FieloCms_Salesforce/scripts/componentCreate.js"
+			],
+			[
+				"pageview",
+				"src/pages/PageView.page"
+			],
+			[
+				"siteslandjs",
+				"raw/resources/FieloCms_Salesforce/scripts/sitesLanding.js"
+			],
+			[
+				"gulp",
+				"raw/gulpfile.babel.js"
+			],
+			[
+				"siteslajs",
+				"raw/resources/FieloCms_Salesforce/scripts/sitesLanding.js"
+			],
+			[
+				"headerjs",
+				"raw/resources/FieloCms_Salesforce/scripts/header.js"
+			],
+			[
+				"header.js",
+				"raw/docs/salesforce/header.js.html"
+			],
+			[
+				"componentcreate",
+				"src/pages/ComponentCreate.page"
+			],
+			[
+				"fixes",
+				"raw/resources/FieloCms_Salesforce/styles/helpers/_fixes.scss"
+			],
+			[
+				"sitelandingpage",
+				"src/pages/SitesLanding.page"
+			],
+			[
+				"sitelanding",
+				"src/classes/SitesLandingController.cls"
+			],
+			[
+				"headerreco",
+				"src/components/BackendHeaderRecord.component"
+			],
+			[
+				"pageviewextensions",
+				"src/classes/PageViewExtensions.cls"
+			],
+			[
+				"siteslandingcontroller",
+				"src/classes/SitesLandingController.cls"
+			],
+			[
+				"siteslanding",
+				"src/pages/SitesLanding.page"
+			],
+			[
+				"packagejson",
+				"raw/package.json"
+			],
+			[
+				"sitelandingcontroller",
+				"src/classes/SitesLandingController.cls"
+			],
+			[
+				"pageviewe",
+				"src/classes/PageViewExtensions.cls"
+			],
+			[
+				"pagecreateextension",
+				"src/classes/PageCreateExtension.cls"
+			],
+			[
+				"pageservice",
+				"src/classes/PageService.cls"
+			],
+			[
+				"_salesforce-lightning-design-system-vf",
+				"resource-bundles/FieloCms_Salesforce.resource/vendor/_salesforce-lightning-design-system-vf.scss"
+			],
+			[
+				"sitesland",
+				"src/pages/SitesLanding.page"
+			],
+			[
+				"back",
+				"src/components/BackendHeaderRecord.component"
+			],
+			[
+				"menuviewbackend",
+				"raw/resources/FieloCms_Salesforce/scripts/menuViewBackEnd.js"
+			],
+			[
+				"backendheaderrecordcontroller",
+				"src/classes/BackendHeaderRecordController.cls"
+			],
+			[
+				"backendheaderrecord",
+				"src/components/BackendHeaderRecord.component"
+			],
+			[
+				"pagevi",
+				"src/classes/PageViewExtensions.cls"
+			],
+			[
+				"siteslan",
+				"src/pages/SitesLanding.page"
+			],
+			[
+				"forms",
+				"raw/resources/FieloSiteResources/scripts/forms.js"
+			],
+			[
+				"componenjs",
+				"raw/resources/FieloSiteResources/scripts/components.js"
+			],
+			[
+				"sitelogifie",
+				"src/components/SiteLoginFielo.component"
+			],
+			[
+				"formsjs",
+				"raw/resources/FieloSiteResources/scripts/forms.js"
+			],
+			[
+				"message",
+				"raw/resources/FieloSiteResources/scripts/message.js"
+			],
+			[
+				"formhtml",
+				"raw/app/fixtures/site/form.html"
+			],
+			[
+				"fa",
+				"raw/app/test/fakeforce.js"
+			],
+			[
+				"formhtlm",
+				"raw/app/fixtures/site/form.html"
+			],
+			[
+				"fake",
+				"raw/app/test/fakeforce.js"
+			],
+			[
+				"messa",
+				"raw/resources/FieloSiteResources/scripts/message.js"
+			],
+			[
+				"formviewjs",
+				"raw/resources/FieloSiteResources/scripts/formView.js"
+			],
+			[
+				"formview",
+				"src/components/FormView.component"
+			],
+			[
+				"fomrsjs",
+				"raw/resources/FieloSiteResources/scripts/forms.js"
+			],
+			[
+				"pack",
+				"raw/package.json"
+			],
+			[
+				"paginator",
+				"raw/resources/FieloSiteResources/scripts/paginator.js"
+			],
+			[
+				"filter",
+				"raw/resources/FieloSiteResources/scripts/filter.js"
+			],
+			[
+				"index",
+				"raw/app/index.html"
+			],
+			[
+				"outputhtml",
+				"raw/app/fixtures/site/output.html"
+			],
+			[
+				"_modal",
+				"raw/resources/FieloSiteResources/styles/components/_outlines/_modal.scss"
+			],
+			[
+				"slide.js",
+				"raw/resources/FieloSiteResources/scripts/slider.js"
+			],
+			[
+				"modaljs",
+				"raw/resources/FieloSiteResources/scripts/modal.js"
+			],
+			[
+				"modal",
+				"raw/resources/FieloSiteResources/scripts/modal.js"
+			],
+			[
+				"sitejs",
+				"raw/resources/FieloSiteResources/scripts/site.js"
+			],
+			[
+				"spinner",
+				"raw/resources/FieloSiteResources/scripts/spinner.js"
+			],
+			[
+				"record",
+				"raw/resources/FieloSiteResources/scripts/record.js"
+			],
+			[
+				"modalhtml",
+				"raw/app/fixtures/site/modal.html"
+			],
+			[
+				"outpuhtml",
+				"raw/app/fixtures/site/output.html"
+			],
+			[
+				"modal.js",
+				"raw/resources/FieloSiteResources/scripts/modal.js"
+			],
+			[
+				"messajs",
+				"raw/resources/FieloSiteResources/scripts/message.js"
+			],
+			[
+				"acco",
+				"raw/resources/FieloSiteResources/scripts/accordion.js"
+			],
+			[
+				"outp",
+				"src/components/OutputField.component"
+			],
+			[
+				"output",
+				"src/components/OutputField.component"
+			],
+			[
+				"out",
+				"raw/app/fixtures/site/output.html"
+			],
+			[
+				"slider",
+				"raw/resources/FieloSiteResources/scripts/slider.js"
+			],
+			[
+				"outputhtm",
+				"raw/app/fixtures/site/output.html"
+			],
+			[
+				"outputjs",
+				"raw/resources/FieloSiteResources/scripts/output.js"
+			],
+			[
+				"outhtml",
+				"raw/app/fixtures/site/output.html"
+			],
+			[
+				"index.html",
+				"raw/app/index.html"
+			],
+			[
+				"outpu",
+				"raw/resources/FieloSiteResources/scripts/outputField.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,7 +1,4 @@
 .DS_Store
-*.sublime-project
-*.sublime-settings
-*.sublime-workspace
 resource-bundles/*.resource
 node_modules/
 docs/
