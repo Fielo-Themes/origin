@@ -23,3 +23,19 @@ We want you to stay productive following the best practices that Fielo CMS recom
 | Live Browser Reloading                 | Reload the browser in real-time anytime an edit is made without the need for an extension. (Run `gulp` and edit your files)|
 | Cross-device Synchronization           | Synchronize clicks, scrolls, forms and live-reload across multiple devices as you edit your project. Powered by [BrowserSync](http://browsersync.io). (Run `gulp` and open up the IP provided on other devices on your network)                       |
 | Salesforce Static Resource           | Generate the .zip static resource file ready to upload while you code. (Run `gulp` and open the resource-bundles folder)                       |
+
+## Quickstart
+
+[Download](https://github.com/Fielo-Themes/origin/releases/latest) the theme or clone this repository and build on what is included in the `app` directory.
+
+Be sure to verify your environment is prepared to run Fielo Themes. Follow the [installation guide](install.md).
+
+## Browser Support
+
+At present, we officially support the last versions of the following browsers:
+
+* Chrome
+* Edge
+* Firefox
+* Safari
+* Internet Explorer 11
