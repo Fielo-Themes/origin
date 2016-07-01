@@ -1,9 +1,14 @@
+.fielo-modal {
+  z-index: 9999;
+}
+
 .fielo-modal__body {
-  width: 69%;
-  padding: 7% 4% 4%;
-  border: 1px solid;
-  border-color: #6F6F6F;
-  border-radius: 30px;
+  width: 70%;
+  padding: 20px;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  margin-left: -35%;
+  left: 50%;
   .fielo-field--is-FieloAlpha__Title__c {
     font-size: 27px;
     line-height: 0.3em;
@@ -17,13 +22,13 @@
 
 .fielo-modal__close {
   font-size: 0;
-  top: 11.5%;
-  right: 12.5%;
+  top: 6.5%;
+  right: 11%;
   &::before{
     //content: "✕";
     //content: "✖";
     content: "×";
-    font-size: 60px;
+    font-size: 30px;
   }
 }
 

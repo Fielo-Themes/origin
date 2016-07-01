@@ -44,8 +44,10 @@
       }
     }
     .fielo-field {
-      padding-bottom: 12px;
       vertical-align: middle;
+      &[data-th="Toggle Manager"], &[data-th="Block/Unblock"], &[data-th="Handle Invitations"] {
+        text-align: center;
+      }
     }
   }
 }

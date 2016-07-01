@@ -18,31 +18,37 @@
     max-height: 50px;
     width: auto;
   }
-  .fielo-navigation.fielo-menu--isHorizontal .fielo-list {
-    .fielo-list__item {
-      text-transform: uppercase;
-      white-space: nowrap;
-      &:hover {
-        background: none;
-      }
-      .fielo-list {
-        background: rgba(0, 0, 0, 0.50);
-        padding: 0 10px;
-        display: none;
-        .fielo-list__item {
-          border-bottom: 1px solid #ffffff;
-          padding: 10px;
-          &:last-child {
-            border-bottom: none;
-          }
-          .fielo-link {
-            color: $header-footerBGColor;
+  .fielo-navigation.fielo-menu--isHorizontal {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    .fielo-list {
+      margin: 0;
+      .fielo-list__item {
+        text-transform: uppercase;
+        white-space: nowrap;
+        &:hover {
+          background: none;
+        }
+        .fielo-list {
+          background: rgba(0, 0, 0, 0.50);
+          padding: 0 10px;
+          display: none;
+          .fielo-list__item {
+            border-bottom: 1px solid #ffffff;
+            padding: 10px;
+            &:last-child {
+              border-bottom: none;
+            }
+            .fielo-link {
+              color: $header-footerBGColor;
+            }
           }
         }
-      }
-      &.fielo-js-hover {
-        .fielo-list {
-          display: block;
+        &.fielo-js-hover {
+          .fielo-list {
+            display: block;
+          }
         }
       }
     }
