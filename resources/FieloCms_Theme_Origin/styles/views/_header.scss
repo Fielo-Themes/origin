@@ -20,8 +20,7 @@
   }
   .fielo-navigation.fielo-menu--isHorizontal {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(50%);
     .fielo-list {
       margin: 0;
       .fielo-list__item {

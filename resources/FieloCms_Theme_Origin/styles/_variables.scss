@@ -8,7 +8,7 @@ $bp-mobile-5: "(min-width: 600px)";
 // Breakpoints for tablet
 $bp-tablet-1: "(min-width: 720px)";
 $bp-tablet-2: "(min-width: 840px)";
-$bp-tablet-3 : "(min-width: 960px)";
+$bp-tablet-3: "(min-width: 960px)";
 
 // Breakpoints for desktop
 $bp-desktop-1: "(min-width: 1024px)";
@@ -31,3 +31,12 @@ $grey-color: #949494;
 $title-color: #474747;
 $link-color: #3d627f;
 $label-color: #a5a5a5;
+
+// Mixings
+@mixin cartIcon {
+	background-image: url(../images/cart.svg);
+	background-repeat: no-repeat;
+	padding-left: 34px;
+	background-size: 60px;
+	background-position: -4px;
+}

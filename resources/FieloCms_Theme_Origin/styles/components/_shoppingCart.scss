@@ -42,14 +42,10 @@
   .fielo-icon--checkout {
     fill:#FFF;
   }
-
+  
   .fielo-button__empty-cart{
-    background-image: url(../images/cart.svg);
-    background-repeat: no-repeat;
-    padding-left: 34px;
+    @include cartIcon;
     width: 168px;
-    background-size: 60px;
-    background-position: -4px;
   }
 
   .fielo-icon--cart {
@@ -64,7 +60,7 @@
  .fielo-shopping__total{
   font-weight: 700;
  }
-.fielo-field--is-FieloAlpha__PointsCant__c,{
+.fielo-field--is-FieloAlpha__PointsCant__c{
   .fielo-output__number{
     font-weight: 700;
   }
@@ -73,6 +69,7 @@
   }
 }
 
-  &[data-th="FieloAlpha__PointsCant__c"] {
-    width: 10px;
-  }
+.fielo-add-to-cart .fielo-button__submit {
+  @include cartIcon;
+  width: 100px;
+}
