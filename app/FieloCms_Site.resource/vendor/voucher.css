@@ -1,0 +1,17 @@
+.clearfix:after { content: ".";	display: block;	clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+label { color:#999999; }
+.left { float:left; }
+.right { float:right; }
+.contentVoucher { border:1px solid #000000; border-top:10px solid #000000; padding:15px; color:#666666; font-family:Helvetica; position: relative; width: 450px; margin-bottom: 20px;}
+.contentVoucher a{ color:#666666; text-decoration: none;}
+.panelTop { width:100% }
+.panelTop .logo{ border:none; }
+.panelTop .logo{ width:150px;  text-align:center; margin:0 0 0 auto; }
+.panelTop .logo .logoDefault{position:relative;left:0px;height:80px;}
+.panelTop .logo .logoCustom{position:relative;left:50px;}
+.infoVoucher { width:100%; margin-top:20px; }
+.infoVoucher .image { width:150px; text-align:center; margin-right:10px; border:1px solid #000000; }
+.infoVoucher .image img { width:150px; }
