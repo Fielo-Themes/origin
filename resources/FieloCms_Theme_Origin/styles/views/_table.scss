@@ -51,3 +51,34 @@
     }
   }
 }
+
+
+
+// table stacked
+.fielo-table {
+ td, .fielo-field__value {
+  border-spacing: 10px 0;
+  border-collapse: separate;
+  padding-left: 10px;
+  }
+}
+.fielo-table td:before {
+  content: attr(data-th);
+  display: table-row;
+  text-transform: uppercase;
+  color: #a9a9a9;
+}
+
+@media #{$bp-mobile-3} {
+  .fielo-table {
+    td, .fielo-field__value {
+    border-spacing: 0;
+    border-collapse: collapse;
+    padding-left: 0;
+    }
+    td:before {
+      display: none;
+    }
+  }
+
+}
