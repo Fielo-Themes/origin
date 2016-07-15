@@ -11,3 +11,13 @@
       border-bottom-left-radius: 0;
     }
   }
+
+@media #{$bp-mobile-3} {
+  .fielo-add-to-cart{
+    .fielo-form__quantity,
+    .fielo-button__submit {
+      border-radius: 5px;
+    }
+
+  }
+}
