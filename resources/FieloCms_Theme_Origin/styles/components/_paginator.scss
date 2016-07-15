@@ -1,0 +1,13 @@
+.fielo-paginator {
+  text-align: center;
+  .fielo-link__previous {
+    &:after {
+      content: " <";
+    }
+  }
+  .fielo-link__next {
+    &:before {
+      content: "> ";
+    }
+  }
+}
