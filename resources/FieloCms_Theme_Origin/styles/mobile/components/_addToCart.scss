@@ -1,0 +1,13 @@
+  .fielo-add-to-cart{
+    .fielo-form__quantity {
+      height: 30px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: 1px solid;
+      border-color: $safeColor;
+    }
+    .fielo-button__submit {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
