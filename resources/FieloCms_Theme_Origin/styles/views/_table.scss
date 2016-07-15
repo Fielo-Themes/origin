@@ -1,21 +1,15 @@
+
 .fielo-table {
   margin-bottom: 20px;
   border: none;
-  td, th{
-    &:first-of-type, &:last-of-type{
+  .fielo-field {
+    text-align: left;
+    &:first-of-type,
+    &:last-of-type {
       padding: 10px;
     }
   }
-  .fielo-table__head {
-    background: #8F9497;
-    color: #ffffff;
-    .fielo-field {
-      border-right: 1px solid #cccccc;
-      color: #FFF;
-      font-size:14px;
-      padding: 10px;
-    }
-  }
+
   .fielo-record-set__data {
     .fielo-record {
       &:nth-child(odd) {
@@ -31,18 +25,8 @@
         }
       }
     }
-    .fielo-field--is-accordion {
-      .fielo-field--is-detail {
-        padding: 0;
-        .fielo-record {
-          background: #f1f1f3;
-          .fielo-field--is-ViewImage {
-            float: left;
-            width: 150px;
-          }
-        }
-      }
-    }
+
+
     .fielo-field {
       vertical-align: middle;
       &[data-th="Toggle Manager"], &[data-th="Block/Unblock"], &[data-th="Handle Invitations"] {
@@ -50,19 +34,42 @@
       }
     }
   }
+  .fielo-field--is-accordion {
+      .fielo-field--is-detail {
+        padding: 0;
+      }
+      .fielo-record {
+        background: #f1f1f3;
+      }
+     .fielo-field--is-ViewImage {
+        float: left;
+        width: 150px;
+      }
+    }
 }
 
+.fielo-table__head {
+  background: #8F9497;
+  color: #ffffff;
+  .fielo-field {
+    border-right: 1px solid #cccccc;
+    color: #FFF;
+    font-size:14px;
+    padding: 10px;
+  }
+}
 
 
 // table stacked
 .fielo-table {
- td, .fielo-field__value {
+ tbody .fielo-field,
+ .fielo-field__value {
   border-spacing: 10px 0;
   border-collapse: separate;
   padding-left: 10px;
   }
 }
-.fielo-table td:before {
+.fielo-table tbody .fielo-field:before {
   content: attr(data-th);
   display: table-row;
   text-transform: uppercase;
@@ -71,12 +78,13 @@
 
 @media #{$bp-mobile-3} {
   .fielo-table {
-    td, .fielo-field__value {
-    border-spacing: 0;
-    border-collapse: collapse;
-    padding-left: 0;
+    tbody  .fielo-field,
+    .fielo-field__value {
+      border-spacing: 0;
+      border-collapse: collapse;
+      padding-left: 0;
     }
-    td:before {
+    tbody .fielo-field:before {
       display: none;
     }
   }
