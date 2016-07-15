@@ -13,13 +13,6 @@
   }
 }
 
-.mdl-data-table td, .mdl-data-table th {
-    /* ?????????????????????
-    padding: 0 18px;
-    text-align: right;
-    */
-    text-align: left;
-}
 
 a:hover {
   //text-decoration: underline;
@@ -61,6 +54,7 @@ a:hover {
 @import 'components/_filter';
 @import 'components/_navigationDetail';
 @import 'components/_login';
+@import 'components/_paginator';
 
 // arreglar en el core
 .fielo-app-menu__btn {
