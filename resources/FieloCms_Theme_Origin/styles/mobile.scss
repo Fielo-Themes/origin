@@ -38,23 +38,23 @@ a:hover {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 // Importa vistas
-@import 'views/_component';
-@import 'views/_modal';
-@import 'views/_header';
-@import 'views/_footer';
-@import 'views/_table';
-@import 'views/_grid';
-@import 'views/_forms';
+@import 'mobile/views/_component';
+@import 'mobile/views/_modal';
+@import 'mobile/views/_header';
+@import 'mobile/views/_footer';
+@import 'mobile/views/_table';
+@import 'mobile/views/_grid';
+@import 'mobile/views/_forms';
 
 // Importa Componentes
-@import 'components/_buttons';
-@import 'components/_shoppingCart';
-@import 'components/_catalog';
-@import 'components/_contentFeed';
-@import 'components/_filter';
-@import 'components/_navigationDetail';
-@import 'components/_login';
-@import 'components/_paginator';
+@import 'mobile/components/_buttons';
+@import 'mobile/components/_shoppingCart';
+@import 'mobile/components/_catalog';
+@import 'mobile/components/_contentFeed';
+@import 'mobile/components/_filter';
+@import 'mobile/components/_navigationDetail';
+@import 'mobile/components/_login';
+@import 'mobile/components/_paginator';
 
 // arreglar en el core
 .fielo-app-menu__btn {
