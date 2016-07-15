@@ -4,6 +4,9 @@
   border: none;
   .fielo-field {
     text-align: left;
+    display: table;
+    border: none;
+    width: 100%;
     &:first-of-type,
     &:last-of-type {
       padding: 10px;
@@ -78,6 +81,11 @@
 
 @media #{$bp-mobile-3} {
   .fielo-table {
+    .fielo-field {
+      text-align: left;
+      display: table-cell;
+
+    }
     tbody  .fielo-field,
     .fielo-field__value {
       border-spacing: 0;
