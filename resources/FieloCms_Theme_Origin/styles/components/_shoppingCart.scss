@@ -4,14 +4,13 @@
     .fielo-field__value{
       display: inline-block;
       padding: 0;
+      width:100%;
     }
-    text-align: center;
+    text-align: left;
   }
 
   .fielo-field--is-ShoppingQuantity,
   .fielo-field--is-quantity {
-    width:100px;
-    text-align: left;
     input{
       &.fielo-shopping__quantity{
         padding: 5px;
@@ -22,14 +21,11 @@
   .fielo-button__delete {
     border: 1px solid;
     color: $dangerColor;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding: 7px 20px;
     background:none;
     text-indent: 0;
     text-align: center;
-    width: 90%;
+    width: 70%;
+    margin: 0 auto;
     &:hover {
       background:none;
     }
@@ -106,6 +102,8 @@
       color: $grey-color;
       font-size: 0;
       padding: 0;
+      height: 100%;
+      width: inherit;
       &:hover {
         color: $dangerColor;
       }
