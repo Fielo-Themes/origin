@@ -69,7 +69,9 @@
  .fielo-field__value {
   border-spacing: 10px 0;
   border-collapse: separate;
-  padding-left: 10px;
+  }
+  tbody .fielo-field {
+    padding-left: 10px;
   }
 }
 .fielo-table tbody .fielo-field:before {
