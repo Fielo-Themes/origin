@@ -8,14 +8,9 @@ import zip from 'gulp-zip';
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
-var THEME_PREFIX = 'FieloCms_Theme_';
-
 /************ Replace with your theme name ************/
 var THEME_NAME = 'Origin';
 
-
-// Full theme name
-var THEME = THEME_PREFIX + THEME_NAME;
 
 
 // Build production site and backend files, the default task
@@ -31,9 +26,9 @@ gulp.task('default', cb => {
 var cmsThemeCss = [
   {
     src: [
-      'resources/' + THEME + '/styles/**/**/*.scss'
+      'resources/styles/**/**/*.scss'
     ],
-    dest: 'resource-bundles/' + THEME + '.resource/styles'
+    dest: 'resource-bundles/FieloCms_Theme.resource/styles'
  }
 ];
 
@@ -70,24 +65,24 @@ var cmsThemeJs = [
   {
     src: [
       // Utilidades
-      'resources/' + THEME + '/scripts/filter.js',
+      'resources/scripts/filter.js',
       ],
     name: 'mobile.min.js',
-    dest: 'resource-bundles/' + THEME + '.resource/scripts'
+    dest: 'resource-bundles/FieloCms_Theme.resource/scripts'
   },
   {
     src: [
-      'resources/' + THEME + '/scripts/filter.js',
+      'resources/scripts/filter.js',
     ],
     name: 'tablet.min.js',
-    dest: 'resource-bundles/' + THEME + '.resource/scripts'
+    dest: 'resource-bundles/FieloCms_Theme.resource/scripts'
   },
   {
     src: [
-      'resources/' + THEME + '/scripts/filter.js',
+      'resources/scripts/filter.js',
     ],
     name: 'desktop.min.js',
-    dest: 'resource-bundles/' + THEME + '.resource/scripts'
+    dest: 'resource-bundles/FieloCms_Theme.resource/scripts'
   }
 ];
 
@@ -123,20 +118,20 @@ gulp.task('jsBuildSiteTheme', ['cmsThemeJsLint'], () => {
 // Copy resources files
 gulp.task('cmsCopyResourcesFiles', () => {
   // copy thumbnail
-  gulp.src(['resources/' + THEME + '/theme.jpg'], { dot: true})
-  .pipe(gulp.dest('resource-bundles/' + THEME + '.resource'))
+  gulp.src(['resources/theme.jpg'], { dot: true})
+  .pipe(gulp.dest('resource-bundles/FieloCms_Theme.resource'))
   .pipe($.size({title: 'copy'}));
 
   // copy images
-  return gulp.src(['resources/' + THEME + '/images/**'], { dot: true})
-  .pipe(gulp.dest('resource-bundles/' + THEME + '.resource/images'))
+  return gulp.src(['resources/images/**'], { dot: true})
+  .pipe(gulp.dest('resource-bundles/FieloCms_Theme.resource/images'))
   .pipe($.size({title: 'copy'}));
 });
 
 // Builds zip for using as static resource
 gulp.task('cmsBuildZip', ['cmsCopyResourcesFiles'], () => {
-  return gulp.src('resource-bundles/' + THEME + '.resource/**')
-    .pipe(zip(THEME + '.zip'))
+  return gulp.src('resource-bundles/FieloCms_Theme.resource/**')
+    .pipe(zip('FieloCms_Theme.zip'))
     .pipe(gulp.dest('resource-bundles'));
 });
 
@@ -157,8 +152,8 @@ gulp.task('theme', ['cmsBuildSiteTheme', 'jsBuildSiteTheme'], () => {
 
   // Listens for changes and reloads browsers
   gulp.watch(['app/**/*.html'], reload);
-  gulp.watch(['resources/' + THEME + '/styles/**/*.{scss,css}'], [
+  gulp.watch(['resources/styles/**/*.{scss,css}'], [
     'cmsBuildSiteTheme', 'cmsBuildZip', reload]);
-  gulp.watch(['resources/' + THEME + '/scripts/**/*.js'], [
+  gulp.watch(['resources/scripts/**/*.js'], [
     'jsBuildSiteTheme', 'cmsBuildZip', reload]);
 });
