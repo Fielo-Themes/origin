@@ -4,11 +4,9 @@
 
 .fielo-modal__body {
   width: 70%;
-  padding: 20px;
   border: 1px solid #bbbbbb;
   border-radius: 5px;
-  margin-left: -35%;
-  left: 50%;
+  padding-top: 50px;
   .fielo-field--is-FieloAlpha__Title__c {
     font-size: 27px;
     line-height: 0.3em;
@@ -18,15 +16,12 @@
   }
 }
 
-.fielo-modal__body-container{}
+
 
 .fielo-modal__close {
   font-size: 0;
-  top: 6.5%;
-  right: 11%;
+  right: 15%;
   &::before{
-    //content: "✕";
-    //content: "✖";
     content: "×";
     font-size: 30px;
   }
