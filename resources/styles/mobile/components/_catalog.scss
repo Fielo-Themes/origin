@@ -25,37 +25,37 @@
   }
 }
 
-.fielo-modal {
-  .mdl-cell {
+.fielo-modal[data-called-by="catalog"] {
+
+  .fielo-field__label,
+  .fielo-field__value {
     margin: 0;
   }
   .fielo-field--is-detail {
     margin-top: 30px;
   }
-  .fielo-detail {
-    .fielo-field {
-      float: left;
-      width: 50%;
+  .fielo-detail .fielo-field {
+
       &.fielo-field--is-Name {
         font-weight: bold;
         color: #333333;
       }
       &.fielo-field--is-FieloAlpha__PointsCant__c {
-        .mdl-cell {
+        .fielo-field__label,
+        .fielo-field__value {
           width: auto;
-          &.fielo-field__value {
-            margin-left: 5px;
-            color: #cc0000;
-            font-weight: bold;
-          }
+        }
+        .fielo-field__value {
+          margin-left: 5px;
+          color: #cc0000;
+          font-weight: bold;
         }
       }
       &.fielo-field--is-FieloAlpha__Description__c {
         margin: 20px 0;
       }
-      &.fielo-field--is-AddtoCart {
 
-      }
     }
-  }
+
+
 }
