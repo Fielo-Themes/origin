@@ -76,13 +76,13 @@
     .fielo-field {
       text-align: left;
       display: table-cell;
+      padding: 0 10px;
     }
 
     tbody  .fielo-field,
     .fielo-field__value {
       border-spacing: 0;
       border-collapse: collapse;
-      padding-left: 0;
     }
 
     tbody .fielo-field:before {
