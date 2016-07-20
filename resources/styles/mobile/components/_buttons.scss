@@ -23,3 +23,30 @@
 .fielo-button__submit.fielo-button--danger {
     background-color: $dangerColor;
 }
+
+
+
+.fielo-table {
+  .fielo-field--is-ToggleManager,
+  .fielo-field--is-BlockUnblock,
+  .fielo-field--is-HandleInvitations {
+    .fielo-button {
+      width: 100%;
+    }
+  }
+}
+
+@media #{$bp-mobile-3} {
+  .fielo-table {
+    .fielo-field--is-ToggleManager,
+    .fielo-field--is-BlockUnblock,
+    .fielo-field--is-HandleInvitations {
+      text-align: center;
+
+      .fielo-button {
+        width: auto;
+      }
+    }
+  }
+
+}
