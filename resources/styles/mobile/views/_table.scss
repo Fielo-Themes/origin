@@ -6,7 +6,7 @@
     text-align: left;
     display: table;
     border: none;
-    width: 100%;
+    width: auto;
     &:first-of-type,
     &:last-of-type {
       padding: 10px;
@@ -17,23 +17,15 @@
     .fielo-record {
       &:nth-child(odd) {
         background: #E7E8EA;
-        .fielo-field {
-          border-right: 1px solid #F2F3F5;
-        }
       }
       &:nth-child(even) {
         background: #F9F9F9;
-        .fielo-field {
-          border-right: 1px solid #ECECEC;
-        }
       }
     }
-
 
     .fielo-field {
       vertical-align: middle;
     }
-
   }
   .fielo-field--is-accordion {
       .fielo-field--is-detail {
@@ -47,7 +39,6 @@
         width: 150px;
       }
     }
-
 }
 
 .fielo-table__head {
@@ -85,16 +76,26 @@
     .fielo-field {
       text-align: left;
       display: table-cell;
-
     }
+
     tbody  .fielo-field,
     .fielo-field__value {
       border-spacing: 0;
       border-collapse: collapse;
       padding-left: 0;
     }
+
     tbody .fielo-field:before {
       display: none;
+    }
+
+    .fielo-record-set__data {
+      .fielo-record:nth-child(odd) .fielo-field {
+        border-right: 1px solid #F2F3F5;
+      }
+      .fielo-record:nth-child(even) .fielo-field {
+        border-right: 1px solid #ECECEC;
+      }
     }
   }
 
