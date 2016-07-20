@@ -57,25 +57,6 @@ a:hover {
 @import 'mobile/components/_login';
 @import 'mobile/components/_paginator';
 
-// arreglar en el core
-.fielo-app-menu__btn {
-  z-index:999999;
-}
-.fielo-app-menu__body{
- z-index:99999;
- heigth: 100%;
- top: 0px;
- width: 85%;
- margin-left:-90%;
- background: rgba(0, 0, 0, 0.86);
-}
-
-@keyframes appMenuSlideout {
-      from { margin-left: 0; }
-      to   { margin-left:-90%; }
-  }
-
-
 
 
 @media #{$bp-mobile-1} {}

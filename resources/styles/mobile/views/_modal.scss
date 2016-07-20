@@ -1,0 +1,25 @@
+.fielo-modal {
+  z-index: 9999;
+}
+
+.fielo-modal__body {
+  width: 70%;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  padding-top: 50px;
+  .fielo-field--is-FieloAlpha__Title__c {
+    @include fieloTitle;
+  }
+}
+
+
+
+.fielo-modal__close {
+  font-size: 0;
+  right: 15%;
+  &::before{
+    content: "×";
+    font-size: 30px;
+  }
+}
+

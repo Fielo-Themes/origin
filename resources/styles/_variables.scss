@@ -32,7 +32,15 @@ $title-color: #474747;
 $link-color: #3d627f;
 $label-color: #a5a5a5;
 
-// Mixings
+
+
+
+
+
+
+// MIXINS
+
+// Shopping cart Icon
 @mixin cartIcon {
 	background-image: url(../images/cart.svg);
 	background-repeat: no-repeat;
@@ -40,3 +48,11 @@ $label-color: #a5a5a5;
 	background-size: 60px;
 	background-position: -4px;
 }
+
+//fielo titles
+@mixin fieloTitle {
+  color: $title-color;
+  font-size: 20px;
+  font-weight: 300;
+}
+
