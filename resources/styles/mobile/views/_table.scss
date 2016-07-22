@@ -6,8 +6,6 @@
     text-align: left;
     display: table;
     border: none;
-    width: auto;
-    white-space: inherit;
     &:first-of-type,
     &:last-of-type {
       padding: 10px;
@@ -78,7 +76,6 @@
       text-align: left;
       display: table-cell;
       padding: 10px;
-      width: 100%;
     }
 
     tbody  .fielo-field,
