@@ -1,0 +1,12 @@
+.fielo-slider__arrow{
+  &--is-previous:before{
+    content: '\276C';
+    font-size: 20px;
+    padding: 0 3px;
+  }
+  &--is-next:before{
+    content: '\276D';
+    font-size: 20px;
+    padding: 0 3px;
+  }
+}

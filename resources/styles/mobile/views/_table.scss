@@ -32,10 +32,8 @@
 
     .fielo-field {
       vertical-align: middle;
-      &[data-th="Toggle Manager"], &[data-th="Block/Unblock"], &[data-th="Handle Invitations"] {
-        text-align: center;
-      }
     }
+
   }
   .fielo-field--is-accordion {
       .fielo-field--is-detail {
@@ -49,6 +47,7 @@
         width: 150px;
       }
     }
+
 }
 
 .fielo-table__head {
