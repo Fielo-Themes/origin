@@ -65,21 +65,21 @@ var cmsThemeJs = [
   {
     src: [
       // Utilidades
-      'resources/scripts/filter.js',
+      'resources/scripts/core.js',
       ],
     name: 'mobile.min.js',
     dest: 'resource-bundles/FieloCms_Theme.resource/scripts'
   },
   {
     src: [
-      'resources/scripts/filter.js',
+      'resources/scripts/core.js',
     ],
     name: 'tablet.min.js',
     dest: 'resource-bundles/FieloCms_Theme.resource/scripts'
   },
   {
     src: [
-      'resources/scripts/filter.js',
+      'resources/scripts/core.js',
     ],
     name: 'desktop.min.js',
     dest: 'resource-bundles/FieloCms_Theme.resource/scripts'

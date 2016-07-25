@@ -1,28 +1,6 @@
-// Para modificar el CORE de FIELO //
-
-.fielo-banner-widget .fielo-field--is-Name {
-  color: none; // !!!!!!!!!!!!!        porque esta regla?
-}
-
-
-// Esto es parte del theme en el archivo components/_contentFeed.scss
-.fielo-content-feed .fielo-table__head .fielo-record {
-  background: none !important;
-  th {
-    color: #ffffff !important;
-  }
-}
-
-
-a:hover {
-  //text-decoration: underline;
-  text-decoration: none;
-}
-
-
 // Breakpoints and stuff
 @import '_variables';
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 
 // Importa vistas
 @import 'mobile/views/_component';
@@ -43,7 +21,6 @@ a:hover {
 @import 'mobile/components/_navigationDetail';
 @import 'mobile/components/_login';
 @import 'mobile/components/_paginator';
-
 
 
 @media #{$bp-mobile-1} {}

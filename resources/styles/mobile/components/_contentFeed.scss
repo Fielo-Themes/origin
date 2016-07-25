@@ -1,5 +1,10 @@
-
 .fielo-content-feed {
+  .fielo-table__head .fielo-record {
+    background: none;
+    .fielo-field {
+      color: #ffffff;
+    }
+  }
   .fielo-record {
     background: #e7e8ea;
     padding: 10px;
@@ -17,3 +22,5 @@
     }
   }
 }
+
+
