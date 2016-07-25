@@ -10,6 +10,7 @@
 @import 'mobile/views/_table';
 @import 'mobile/views/_grid';
 @import 'mobile/views/_forms';
+@import 'mobile/views/_slider';
 
 // Importa Componentes
 @import 'mobile/components/_buttons';
@@ -21,6 +22,7 @@
 @import 'mobile/components/_navigationDetail';
 @import 'mobile/components/_login';
 @import 'mobile/components/_paginator';
+@import 'mobile/components/_register';
 
 
 @media #{$bp-mobile-1} {}
