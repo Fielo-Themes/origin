@@ -41,6 +41,7 @@
     "allowTernary": true,
     "allowShortCircuit": true,
     "globals": {
+      "WebFontConfig": true
     }
   }
 }
