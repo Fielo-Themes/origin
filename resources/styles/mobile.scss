@@ -19,19 +19,6 @@ a:hover {
   text-decoration: none;
 }
 
-.fielo-footer--is-pushing {
-  min-height: 210px;
-  // Luego ver si con JS se puede hacer algo dinamico que calcule
-  // el alto del header y del footer y que el mas alto gane.
-  // Y esa altura es el valor de esta regla
-}
-/*
-// Si pongo esta regla el slider se achica y no se ve la foto
-
-.fielo-slider__container {
-  height: auto;
-}
-*/
 
 // Breakpoints and stuff
 @import '_variables';

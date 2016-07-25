@@ -1,0 +1,8 @@
+@media #{$bp-tablet-2} {
+  .fielo-header {
+    .fielo-navigation.fielo-menu--isHorizontal {
+      position: relative;
+      transform: translateY(50%);
+    }
+  }
+}
