@@ -1,17 +1,19 @@
 // Fielo Buttons
 .fielo-button{
   border: none;
-  color: #FFF;
   font-size: 1.2em;
   text-transform: uppercase;
   border-radius: 5px;
   padding: 7px 20px;
   margin: 5px 0;
+  background-color:#ddd;
   &--safe {
     background-color: $safeColor;
+    color: #FFF;
   }
   &--danger,
   &__cancel {
+    color: #FFF;
     background-color: $dangerColor;
   }
 }
