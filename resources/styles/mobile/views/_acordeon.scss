@@ -1,0 +1,16 @@
+.fielo-link__to-detail--is-Accordion{
+  &:after{
+    content: '+';
+    position: absolute;
+    right: 30px;
+    font-size: 20px;
+  }
+}
+.fielo-field.fielo-field--is-FieloAlpha__Title__c{
+  width: 100%;
+}
+@media #{$bp-mobile-3} {
+  .fielo-field.fielo-field--is-FieloAlpha__Title__c{
+    width: 1%;
+  }
+}
