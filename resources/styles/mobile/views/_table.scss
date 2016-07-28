@@ -15,7 +15,7 @@
   .fielo-record-set__data {
     .fielo-record {
       &:nth-child(odd) {
-        background: #E7E8EA;
+        background-color: $record-bg-color;
       }
       &:nth-child(even) {
         background: #F9F9F9;
@@ -26,18 +26,6 @@
       vertical-align: middle;
     }
   }
-  .fielo-field--is-accordion {
-      .fielo-field--is-detail {
-        padding: 0;
-      }
-      .fielo-record {
-        background: #f1f1f3;
-      }
-     .fielo-field--is-ViewImage {
-        float: left;
-        width: 150px;
-      }
-    }
 }
 
 .fielo-table__head {

@@ -6,11 +6,42 @@
     font-size: 20px;
   }
 }
-.fielo-field.fielo-field--is-FieloAlpha__Title__c{
-  width: 100%;
+
+
+.fielo-record-set[data-layout="table"][data-detail-view="accordion"] {
+  .fielo-table {
+      .fielo-table__head { display:none;}
+      .fielo-record .fielo-field:before {
+        display: none;
+      }
+    }
+  .fielo-field {
+    width: 100%;
+  }
+}
+
+
+.fielo-table .fielo-field--is-accordion {
+  background-color: $record-bg-color;
+  .fielo-field {
+    display: block;
+    width:100%;
+    padding:0;
+    td {
+      text-align: left;
+    }
+  }
+  .fielo-field--is-detail {
+    padding: 0;
+  }
 }
 @media #{$bp-mobile-3} {
-  .fielo-field.fielo-field--is-FieloAlpha__Title__c{
-    width: 1%;
+  .fielo-record-set[data-layout="table"][data-detail-view="accordion"] {
+    .fielo-field {
+      width: 1%;
+    }
+    .fielo-field--is-accordion .fielo-field {
+      width: 100%;
+    }
   }
 }
