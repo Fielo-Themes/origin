@@ -1,5 +1,5 @@
 .DS_Store
 *.sublime-workspace
-resource-bundles/*.resource
+resource-bundles/
 node_modules/
 docs/
